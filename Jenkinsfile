@@ -1,8 +1,8 @@
 def gv
 
 pipeline {
-    /* agent any
-         environment {
+    agent any
+         /* environment {
          NEW_VERSION = '1.2.0'
          SERVER_CREDENTIALS = credentials('server-credentials')
      } */
@@ -71,4 +71,5 @@ pipeline {
          failure {
              echo "hello"
          }
-    */ }
+    */ 
+    }
